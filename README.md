@@ -1,2 +1,2 @@
 # nb
-Command line note-taking, bookmarking,
+Command line note-taking, bookmarking.
