@@ -2,5 +2,4 @@
 Command line note-taking, bookmarking.
 
 ## edit
-
-From `nb shell`: `e <title|id>`
+- `e <title|id>`
