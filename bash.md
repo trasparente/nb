@@ -9,8 +9,14 @@
 - `!!` execute last command
 - `!n` execute command n
 
+## clear
+- `ctrl l`
+
 ## shortcuts
 
 ### line
-- `ctrl u` move beginning
-- `ctrl k` move end
+- `ctrl a` move beginning
+
+### copy / cut / paste
+- `ctrl k` cut from cursor to end of line
+- `ctrl y` paste last cut text
