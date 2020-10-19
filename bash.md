@@ -1,8 +1,10 @@
 # bash
 
+- `echo $SHELL` to print the shell
+
 ## source file
 
-`. ~/bashrc`
+- `. ~/bashrc`
 
 ## history
 
