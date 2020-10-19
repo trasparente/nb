@@ -1,10 +1,16 @@
 # bash
-- `echo $SHELL` to print the shell
+`echo $SHELL` to print the shell
 
-- source file `. ~/bashrc`
-- `history` list
-	- `!!` execute last command
-	- `!n` execute command n
-- shortcuts
-	- `ctrl u` move line beginning
-	- `ctrl k` move line end
+# source file
+`. ~/bashrc`
+
+# history
+-  list `history`
+- `!!` execute last command
+- `!n` execute command n
+
+# shortcuts
+
+## line
+- `ctrl u` move beginning
+- `ctrl k` move end
