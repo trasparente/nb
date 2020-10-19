@@ -2,10 +2,10 @@
 `echo $SHELL` to print the shell
 
 ## source file
-`. ~/bashrc`
+- `. ~/bashrc`
 
 ## history
--  list `history`
+- `history` list
 - `!!` execute last command
 - `!n` execute command n
 
