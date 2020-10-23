@@ -20,3 +20,9 @@
 ### copy / cut / paste
 - `ctrl k` cut from cursor to end of line
 - `ctrl y` paste last cut text
+
+## infos
+
+### screen
+- `tput cols` screen columns
+- `tput lines` screen lines
