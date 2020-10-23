@@ -1,5 +1,8 @@
 # micro
 
+## selection
+- `alt up/down` move selecter row
+
 ## macros
 - `ctrl u` start/stop
 - `ctrl j` play
