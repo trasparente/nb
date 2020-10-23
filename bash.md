@@ -26,3 +26,13 @@
 ### screen
 - `tput cols` screen columns
 - `tput lines` screen lines
+
+## scripts
+- `#!/bin/bash` header
+
+### functions
+
+- `$#` arguments number
+- `$@` whole arguments
+- `$N` arguments N=1, 2, 3...
+- `$0` script
