@@ -29,6 +29,7 @@
 
 ## scripts
 - `#!/bin/bash` header
+- `chmod +x script.sh` executable
 
 ### functions
 
