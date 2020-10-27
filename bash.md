@@ -9,15 +9,9 @@
 - `!!` execute last command
 - `!n` execute command n
 
-## clear
-- `ctrl l`
-
 ## shortcuts
-
-### line
-- `ctrl a` move beginning
-
-### copy / cut / paste
+- `ctrl l` clear console
+- `ctrl a` move beginning of line
 - `ctrl k` cut from cursor to end of line
 - `ctrl y` paste last cut text
 
@@ -28,12 +22,12 @@
 - `tput lines` screen lines
 
 ## scripts
-- `#!/bin/bash` header
-- `chmod +x script.sh` executable
+- `#!/bin/bash` header for scripts
+- `chmod +x script.sh` make executable
 
 ### functions
 
 - `$#` arguments number
 - `$@` whole arguments
 - `$N` arguments N=1, 2, 3...
-- `$0` script
+- `$0` script name
