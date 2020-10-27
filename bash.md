@@ -9,6 +9,9 @@
 - `!!` execute last command
 - `!n` execute command n
 
+## filesystem
+- `mv <SOURCE> <DEST>` rename files and folders
+
 ## shortcuts
 - `ctrl l` clear console
 - `ctrl a` move beginning of line
