@@ -1,8 +1,6 @@
 # nb
 Command line note-taking, bookmarking.
 
-## edit
-- `e <title|id>`
-
-## show
-- `s <title|id>`
+- `nb s <title|id>` show
+- `nb e <title|id>` edit
+- `nb a <filename.md>` add
