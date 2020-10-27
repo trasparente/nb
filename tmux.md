@@ -1,12 +1,17 @@
 # tmux
 
 ## source file
-- `ctrl b :source-file ~/.tmux.conf`
+- `prefix :source-file ~/.tmux.conf`
+- `prefix ì`
 
 ## panels
-- `ctrl b arrows` move
-- `ctrl b x y` close
+- `prefix %` split vertically
+- `prefix "` split horizontally
+- `prefix x y` close
+- `prefix arrows` move
 
-### split
-- `ctrl %` vertically
-- `ctrl "` horizontally
+## windows
+- `prefix c` create
+- `prefix &` close
+- `prefix ,` rename
+- `prefix 0...9` switch window
