@@ -6,4 +6,4 @@
 - `docker system prune (y)` remove containers, networks, images and build cache
 
 ## jekyll
-- `docker run --volume="$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/jekyll:3.8 jekyll serve --livereload --incremental`
+- `docker run --name raveup --volume="$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/jekyll:3.8 jekyll serve --livereload --incremental`
