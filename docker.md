@@ -30,4 +30,4 @@ jekyll:
 ```
 
 - `docker-compose up --remove-orphans` start container
-- `{% unless site.environment == "development" %}<script> document.write('<script src="//' + (location.hostname || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>` script in `<head>`
+- `{% unless site.environment == "development" %}<script> document.write('<script src="//' + (location.hostname || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>{% endunless %}` script in `<head>`
