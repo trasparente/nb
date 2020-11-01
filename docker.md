@@ -24,6 +24,7 @@ jekyll:
   command: jekyll serve --watch --livereload
   ports:
     - 4000:4000
+    - 35729:35729
   volumes:
     - .:/srv/jekyll
 ```
