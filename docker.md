@@ -29,6 +29,7 @@ jekyll:
     - .:/srv/jekyll
 ```
 
+- To ignore file in Jekyll add `docker*` in `.gitignore`
 - `docker-compose up --remove-orphans` start container
 -  script in `<head>`
 
