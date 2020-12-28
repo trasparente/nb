@@ -40,3 +40,39 @@ jekyll:
 ```
 
 - `.bash_aliases` `alias dcu="docker-compose up --remove-orphans"`
+
+## composer alias
+
+```bash
+# Docker
+alias dcu="ignore"
+dcuu() {
+	FILE=docker-compose.yml
+	if [ -f "$FILE" ]; then
+	    docker-compose up --remove-orphans
+	else 
+	    echo "jekyll:
+  image: jekyll/jekyll:pages
+  command: jekyll serve --watch --livereload
+  ports:
+    - 4000:4000
+    - 35729:35729
+  volumes:
+    - .:/srv/jekyll" >> docker-compose.yml
+    docker-compose up --remove-orphans
+	fi
+}
+ignore() {
+	FILE=.gitignore
+	if [ -f "$FILE" ]; then
+		if ! grep -q "docker*" "$FILE"; then
+			echo "docker*" >> .gitignore
+		else
+			echo ".gitignore already contain docker*"
+		fi
+		dcuu
+	else
+		echo ".gitignore not present"
+	fi
+}
+```
