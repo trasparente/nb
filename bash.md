@@ -43,3 +43,7 @@
 - `sudo ./autorun.sh` install
 - `lsmod | grep r8168` verify
 - `ifconfig -a` verify
+
+### sound and keyboard
+
+- `sudo apt install linux-modules-extra-$(uname -r)` install
