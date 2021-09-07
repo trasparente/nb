@@ -34,3 +34,12 @@
 - `$@` whole arguments
 - `$N` arguments N=1, 2, 3...
 - `$0` script name
+
+## focal fossa upgrade
+
+### wired network
+
+- `cd r8168-8-049.02` cd inside
+- `sudo ./autorun.sh` install
+- `lsmod | grep r8168` verify
+- `ifconfig -a` verify
